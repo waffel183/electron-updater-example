@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -16,11 +16,12 @@
     "electron-updater": "^4.0.6"
   },
   "build": {
-    "appId": "com.github.waffel183.electronupdaterexample",
-    "publish": [{
-      "provider": "github",
-      "owner":"waffel13",
-      "repo": "electron-updater-example"
-      }]
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "waffel13",
+        "repo": "electron-updater-example"
+      }
+    ]
   }
 }
