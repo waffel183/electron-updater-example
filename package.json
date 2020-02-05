@@ -19,8 +19,7 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "waffel13",
-        "repo": "electron-updater-example"
+        "owner": "waffel13"
       }
     ]
   }
